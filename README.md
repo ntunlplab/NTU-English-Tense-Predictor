@@ -7,7 +7,7 @@ python3 predict.py sample.in
 [sample.in](http://nlg.csie.ntu.edu.tw/nlpresource/english_tense_predictor/sample.in) contains a number of sentences which are parsed by a depdendency parser in the Stanford format.
 
 # Download
-Click [here](http://nlg.csie.ntu.edu.tw/nlpresource/english_tense_predictor/ntu_eng_tense_predictor.zip) to download the toolkit.
+Download ```ntu_eng_tense_predictor.zip``` for the toolkit.
 
 # How to Cite this resource
 Please cite the following paper when referring to NTU English Tense Predictor in academic publications and papers.
