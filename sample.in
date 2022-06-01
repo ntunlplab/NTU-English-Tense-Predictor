@@ -1,0 +1,557 @@
+Sentence #1 (20 tokens):
+The English-Chinese parallel corpus in the domain of twitter of Tencent or Sina twitter from 2010 to March 2014.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=English-Chinese CharacterOffsetBegin=4 CharacterOffsetEnd=19 PartOfSpeech=JJ Lemma=english-chinese NamedEntityTag=MISC]
+[Text=parallel CharacterOffsetBegin=20 CharacterOffsetEnd=28 PartOfSpeech=NN Lemma=parallel NamedEntityTag=O]
+[Text=corpus CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=NN Lemma=corpus NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=domain CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=domain NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=twitter CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NN Lemma=twitter NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Tencent CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=Tencent NamedEntityTag=ORGANIZATION]
+[Text=or CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=Sina CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NNP Lemma=Sina NamedEntityTag=PERSON]
+[Text=twitter CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NN Lemma=twitter NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=2010 CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=CD Lemma=2010 NamedEntityTag=DATE NormalizedNamedEntityTag=2010/2014]
+[Text=to CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=TO Lemma=to NamedEntityTag=DATE NormalizedNamedEntityTag=2010/2014]
+[Text=March CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=2010/2014]
+[Text=2014 CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=201403]
+[Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (DT The) (JJ English-Chinese) (NN parallel) (NN corpus))
+    (PP (IN in)
+      (NP
+        (NP (DT the) (NN domain))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NN twitter))
+              (PP (IN of)
+                (NP (NNP Tencent))))
+            (CC or)
+            (NP
+              (NP (NNP Sina) (NN twitter))
+              (PP (IN from)
+                (NP (CD 2010))))))))
+    (PP (TO to)
+      (NP (NNP March) (CD 2014)))
+    (. .)))
+
+root(ROOT-0, corpus-4)
+det(corpus-4, The-1)
+amod(corpus-4, English-Chinese-2)
+compound(corpus-4, parallel-3)
+case(domain-7, in-5)
+det(domain-7, the-6)
+nmod:in(corpus-4, domain-7)
+case(twitter-9, of-8)
+nmod:of(domain-7, twitter-9)
+case(Tencent-11, of-10)
+nmod:of(twitter-9, Tencent-11)
+cc(twitter-9, or-12)
+compound(twitter-14, Sina-13)
+conj:or(twitter-9, twitter-14)
+case(2010-16, from-15)
+nmod:from(twitter-14, 2010-16)
+case(March-18, to-17)
+nmod:to(corpus-4, March-18)
+nummod(March-18, 2014-19)
+
+Sentence #2 (14 tokens):
+just relaxing at the beautiful hotel in Hangzhou . West Lake is stunning.
+[Text=just CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=relaxing CharacterOffsetBegin=119 CharacterOffsetEnd=127 PartOfSpeech=VBG Lemma=relax NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=beautiful CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=JJ Lemma=beautiful NamedEntityTag=O]
+[Text=hotel CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=hotel NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Hangzhou CharacterOffsetBegin=154 CharacterOffsetEnd=162 PartOfSpeech=NNP Lemma=Hangzhou NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text=West CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=NNP Lemma=West NamedEntityTag=LOCATION]
+[Text=Lake CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NNP Lemma=Lake NamedEntityTag=LOCATION]
+[Text=is CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=stunning CharacterOffsetBegin=178 CharacterOffsetEnd=186 PartOfSpeech=JJ Lemma=stunning NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (VP
+        (ADVP (RB just))
+        (VBG relaxing)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (JJ beautiful) (NN hotel))
+            (PP (IN in)
+              (NP (NNP Hangzhou) (. .) (NNP West) (NNP Lake)))))))
+    (VP (VBZ is)
+      (ADJP (JJ stunning)))
+    (. .)))
+
+root(ROOT-0, stunning-13)
+advmod(relaxing-2, just-1)
+csubj(stunning-13, relaxing-2)
+case(hotel-6, at-3)
+det(hotel-6, the-4)
+amod(hotel-6, beautiful-5)
+nmod:at(relaxing-2, hotel-6)
+case(Lake-11, in-7)
+compound(Lake-11, Hangzhou-8)
+compound(Lake-11, West-10)
+nmod:in(hotel-6, Lake-11)
+cop(stunning-13, is-12)
+
+Sentence #3 (12 tokens):
+met the incredible children and staff at Greentown Hospital in Hangzhou.
+[Text=met CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=VBD Lemma=meet NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=incredible CharacterOffsetBegin=197 CharacterOffsetEnd=207 PartOfSpeech=JJ Lemma=incredible NamedEntityTag=O]
+[Text=children CharacterOffsetBegin=208 CharacterOffsetEnd=216 PartOfSpeech=NNS Lemma=child NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=staff CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NN Lemma=staff NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=Greentown CharacterOffsetBegin=230 CharacterOffsetEnd=239 PartOfSpeech=NNP Lemma=Greentown NamedEntityTag=O]
+[Text=Hospital CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=NNP Lemma=Hospital NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Hangzhou CharacterOffsetBegin=252 CharacterOffsetEnd=260 PartOfSpeech=NNP Lemma=Hangzhou NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (VP (VBD met)
+      (NP (DT the) (JJ incredible) (NNS children)
+        (CC and)
+        (NN staff))
+      (PP (IN at)
+        (NP (NNP Greentown) (NNP Hospital)))
+      (PP (IN in)
+        (NP (NNP Hangzhou))))
+    (. .)))
+
+root(ROOT-0, met-1)
+det(children-4, the-2)
+amod(children-4, incredible-3)
+dobj(met-1, children-4)
+cc(children-4, and-5)
+conj:and(children-4, staff-6)
+case(Hospital-9, at-7)
+compound(Hospital-9, Greentown-8)
+nmod:at(met-1, Hospital-9)
+case(Hangzhou-11, in-10)
+nmod:in(met-1, Hangzhou-11)
+
+Sentence #4 (14 tokens):
+I had a great meal at a local Beijing restaurant called Boayuan Dumplings.
+[Text=I CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=had CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=great CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=JJ Lemma=great NamedEntityTag=O]
+[Text=meal CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=NN Lemma=meal NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=local CharacterOffsetBegin=287 CharacterOffsetEnd=292 PartOfSpeech=JJ Lemma=local NamedEntityTag=O]
+[Text=Beijing CharacterOffsetBegin=293 CharacterOffsetEnd=300 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=O]
+[Text=restaurant CharacterOffsetBegin=301 CharacterOffsetEnd=311 PartOfSpeech=NN Lemma=restaurant NamedEntityTag=O]
+[Text=called CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=VBD Lemma=call NamedEntityTag=O]
+[Text=Boayuan CharacterOffsetBegin=319 CharacterOffsetEnd=326 PartOfSpeech=NNP Lemma=Boayuan NamedEntityTag=O]
+[Text=Dumplings CharacterOffsetBegin=327 CharacterOffsetEnd=336 PartOfSpeech=NNP Lemma=Dumplings NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (SINV
+    (S
+      (NP (PRP I))
+      (VP (VBD had)
+        (NP
+          (NP (DT a) (JJ great) (NN meal))
+          (PP (IN at)
+            (NP (DT a) (JJ local) (NNP Beijing) (NN restaurant))))))
+    (VP (VBD called))
+    (NP (NNP Boayuan) (NNP Dumplings))
+    (. .)))
+
+root(ROOT-0, called-11)
+nsubj(had-2, I-1)
+dep(called-11, had-2)
+det(meal-5, a-3)
+amod(meal-5, great-4)
+dobj(had-2, meal-5)
+case(restaurant-10, at-6)
+det(restaurant-10, a-7)
+amod(restaurant-10, local-8)
+compound(restaurant-10, Beijing-9)
+nmod:at(meal-5, restaurant-10)
+compound(Dumplings-13, Boayuan-12)
+nsubj(called-11, Dumplings-13)
+
+Sentence #5 (17 tokens):
+A real friend is one who walks in when the rest of the world walks out.
+[Text=A CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=real CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=JJ Lemma=real NamedEntityTag=O]
+[Text=friend CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=NN Lemma=friend NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=CD Lemma=one NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=walks CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=VBZ Lemma=walk NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=rest CharacterOffsetBegin=382 CharacterOffsetEnd=386 PartOfSpeech=NN Lemma=rest NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=world CharacterOffsetBegin=394 CharacterOffsetEnd=399 PartOfSpeech=NN Lemma=world NamedEntityTag=O]
+[Text=walks CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=VBZ Lemma=walk NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT A) (JJ real) (NN friend))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBZ walks)
+              (PP (IN in)
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP
+                      (NP (DT the) (NN rest))
+                      (PP (IN of)
+                        (NP (DT the) (NN world))))
+                    (VP (VBZ walks)
+                      (PRT (RP out)))))))))))
+    (. .)))
+
+root(ROOT-0, one-5)
+det(friend-3, A-1)
+amod(friend-3, real-2)
+nsubj(one-5, friend-3)
+cop(one-5, is-4)
+nsubj(walks-7, who-6)
+acl:relcl(one-5, walks-7)
+mark(walks-15, in-8)
+advmod(walks-15, when-9)
+det(rest-11, the-10)
+nsubj(walks-15, rest-11)
+case(world-14, of-12)
+det(world-14, the-13)
+nmod:of(rest-11, world-14)
+advcl(walks-7, walks-15)
+compound:prt(walks-15, out-16)
+
+Sentence #6 (16 tokens):
+We can't judge a person by what he says but by what he does.
+[Text=We CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=ca CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=judge CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=VB Lemma=judge NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=person CharacterOffsetBegin=429 CharacterOffsetEnd=435 PartOfSpeech=NN Lemma=person NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=464 CharacterOffsetEnd=466 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD ca) (RB n't)
+      (VP (VB judge)
+        (NP (DT a) (NN person))
+        (PP (IN by)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP he))
+              (VP (VBZ says)
+                (PP (CC but)
+                  (PP (IN by)
+                    (SBAR
+                      (WHNP (WP what))
+                      (S
+                        (NP (PRP he))
+                        (VP (VBZ does))))))))))))
+    (. .)))
+
+root(ROOT-0, judge-4)
+nsubj(judge-4, We-1)
+aux(judge-4, ca-2)
+neg(judge-4, n't-3)
+det(person-6, a-5)
+dobj(judge-4, person-6)
+mark(says-10, by-7)
+dobj(says-10, what-8)
+nsubj(says-10, he-9)
+advcl(judge-4, says-10)
+cc(does-15, but-11)
+mark(does-15, by-12)
+dobj(does-15, what-13)
+nsubj(does-15, he-14)
+dep(says-10, does-15)
+
+Sentence #7 (17 tokens):
+A man is not finished when he is defeated. He is finished when he quits.
+[Text=A CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=man CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=NN Lemma=man NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=finished CharacterOffsetBegin=487 CharacterOffsetEnd=495 PartOfSpeech=VBN Lemma=finish NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=504 CharacterOffsetEnd=506 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=defeated CharacterOffsetBegin=507 CharacterOffsetEnd=515 PartOfSpeech=VBN Lemma=defeat NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text=He CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=finished CharacterOffsetBegin=523 CharacterOffsetEnd=531 PartOfSpeech=VBN Lemma=finish NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=quits CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=VBZ Lemma=quit NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=545 CharacterOffsetEnd=546 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT A) (NN man))
+      (VP (VBZ is) (RB not)
+        (ADJP (VBN finished)
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP he))
+              (VP (VBZ is)
+                (VP (VBN defeated))))
+            (. .)))))
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP (VBN finished)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP he))
+            (VP (VBZ quits))))))
+    (. .)))
+
+root(ROOT-0, finished-13)
+det(man-2, A-1)
+nsubjpass(finished-5, man-2)
+auxpass(finished-5, is-3)
+neg(finished-5, not-4)
+dep(finished-13, finished-5)
+advmod(defeated-9, when-6)
+nsubjpass(defeated-9, he-7)
+auxpass(defeated-9, is-8)
+ccomp(finished-5, defeated-9)
+nsubjpass(finished-13, He-11)
+auxpass(finished-13, is-12)
+advmod(quits-16, when-14)
+nsubj(quits-16, he-15)
+advcl(finished-13, quits-16)
+
+Sentence #8 (22 tokens):
+A fan gave me this bracelet right before I went on stage. She made it for me outta rubber bands.
+[Text=A CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=fan CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=NN Lemma=fan NamedEntityTag=O]
+[Text=gave CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=VBD Lemma=give NamedEntityTag=O]
+[Text=me CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=bracelet CharacterOffsetBegin=567 CharacterOffsetEnd=575 PartOfSpeech=NN Lemma=bracelet NamedEntityTag=O]
+[Text=right CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=NN Lemma=right NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=582 CharacterOffsetEnd=588 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=went CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=VBD Lemma=go NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=stage CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=NN Lemma=stage NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text=She CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=VBD Lemma=make NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=me CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=outta CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=JJ Lemma=outta NamedEntityTag=O]
+[Text=rubber CharacterOffsetBegin=631 CharacterOffsetEnd=637 PartOfSpeech=NN Lemma=rubber NamedEntityTag=O]
+[Text=bands CharacterOffsetBegin=638 CharacterOffsetEnd=643 PartOfSpeech=NNS Lemma=band NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT A) (NN fan))
+      (VP (VBD gave)
+        (NP (PRP me))
+        (NP (DT this) (NN bracelet) (NN right))
+        (SBAR (IN before)
+          (S
+            (NP (PRP I))
+            (VP (VBD went)
+              (PP (IN on)
+                (NP (NN stage)))))))
+      (. .))
+    (NP (PRP She))
+    (VP (VBD made)
+      (NP (PRP it))
+      (PP (IN for)
+        (NP
+          (ADJP
+            (NP (PRP me))
+            (JJ outta))
+          (NN rubber) (NNS bands))))
+    (. .)))
+
+root(ROOT-0, made-15)
+det(fan-2, A-1)
+nsubj(gave-3, fan-2)
+dep(made-15, gave-3)
+iobj(gave-3, me-4)
+det(right-7, this-5)
+compound(right-7, bracelet-6)
+dobj(gave-3, right-7)
+mark(went-10, before-8)
+nsubj(went-10, I-9)
+advcl(gave-3, went-10)
+case(stage-12, on-11)
+nmod:on(went-10, stage-12)
+nsubj(made-15, She-14)
+dobj(made-15, it-16)
+case(bands-21, for-17)
+nmod:npmod(outta-19, me-18)
+amod(bands-21, outta-19)
+compound(bands-21, rubber-20)
+nmod:for(made-15, bands-21)
+
+Sentence #9 (22 tokens):
+Thank you so much to all of my amazing fans. Im SO glad you guys are enjoying the new album!
+[Text=Thank CharacterOffsetBegin=646 CharacterOffsetEnd=651 PartOfSpeech=VB Lemma=thank NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=RB Lemma=much NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=671 CharacterOffsetEnd=673 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=my CharacterOffsetBegin=674 CharacterOffsetEnd=676 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O]
+[Text=amazing CharacterOffsetBegin=677 CharacterOffsetEnd=684 PartOfSpeech=JJ Lemma=amazing NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=689 CharacterOffsetEnd=690 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text=Im CharacterOffsetBegin=691 CharacterOffsetEnd=693 PartOfSpeech=NN Lemma=im NamedEntityTag=O]
+[Text=SO CharacterOffsetBegin=694 CharacterOffsetEnd=696 PartOfSpeech=NN Lemma=so NamedEntityTag=O]
+[Text=glad CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=JJ Lemma=glad NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=guys CharacterOffsetBegin=706 CharacterOffsetEnd=710 PartOfSpeech=NNS Lemma=guy NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=711 CharacterOffsetEnd=714 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=enjoying CharacterOffsetBegin=715 CharacterOffsetEnd=723 PartOfSpeech=VBG Lemma=enjoy NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=new CharacterOffsetBegin=728 CharacterOffsetEnd=731 PartOfSpeech=JJ Lemma=new NamedEntityTag=O]
+[Text=album CharacterOffsetBegin=732 CharacterOffsetEnd=737 PartOfSpeech=NN Lemma=album NamedEntityTag=O]
+[Text=! CharacterOffsetBegin=737 CharacterOffsetEnd=738 PartOfSpeech=. Lemma=! NamedEntityTag=O]
+(ROOT
+  (S
+    (VP (VB Thank)
+      (NP (PRP you))
+      (ADVP (RB so) (RB much)
+        (PP (TO to)
+          (SBAR
+            (WHNP
+              (NP (DT all))
+              (PP (IN of)
+                (NP (PRP$ my) (JJ amazing) (NNS fans))
+                (. .)))
+            (S
+              (NP (NN Im) (NN SO))
+              (ADJP (JJ glad)
+                (SBAR
+                  (S
+                    (NP (PRP you) (NNS guys))
+                    (VP (VBP are)
+                      (VP (VBG enjoying)
+                        (NP (DT the) (JJ new) (NN album))))))))))))
+    (. !)))
+
+root(ROOT-0, Thank-1)
+dobj(Thank-1, you-2)
+advmod(much-4, so-3)
+advmod(Thank-1, much-4)
+mark(glad-14, to-5)
+dep(glad-14, all-6)
+case(fans-10, of-7)
+nmod:poss(fans-10, my-8)
+amod(fans-10, amazing-9)
+nmod:of(all-6, fans-10)
+compound(SO-13, Im-12)
+dep(glad-14, SO-13)
+advcl(much-4, glad-14)
+dep(guys-16, you-15)
+nsubj(enjoying-18, guys-16)
+aux(enjoying-18, are-17)
+ccomp(glad-14, enjoying-18)
+det(album-21, the-19)
+amod(album-21, new-20)
+dobj(enjoying-18, album-21)
+
+Sentence #10 (18 tokens):
+There is only one person who can define success in your life - and that's you.
+[Text=There CharacterOffsetBegin=740 CharacterOffsetEnd=745 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=746 CharacterOffsetEnd=748 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=RB Lemma=only NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=754 CharacterOffsetEnd=757 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=person CharacterOffsetBegin=758 CharacterOffsetEnd=764 PartOfSpeech=NN Lemma=person NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=765 CharacterOffsetEnd=768 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=769 CharacterOffsetEnd=772 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=define CharacterOffsetBegin=773 CharacterOffsetEnd=779 PartOfSpeech=VB Lemma=define NamedEntityTag=O]
+[Text=success CharacterOffsetBegin=780 CharacterOffsetEnd=787 PartOfSpeech=NN Lemma=success NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=788 CharacterOffsetEnd=790 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=your CharacterOffsetBegin=791 CharacterOffsetEnd=795 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=796 CharacterOffsetEnd=800 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=801 CharacterOffsetEnd=802 PartOfSpeech=: Lemma=- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=803 CharacterOffsetEnd=806 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=807 CharacterOffsetEnd=811 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=811 CharacterOffsetEnd=813 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=814 CharacterOffsetEnd=817 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=817 CharacterOffsetEnd=818 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBZ is)
+        (NP
+          (NP (RB only) (CD one) (NN person))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (MD can)
+                (VP (VB define)
+                  (NP (NN success))
+                  (PP (IN in)
+                    (NP (PRP$ your) (NN life))))))))))
+    (: -)
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBZ 's)
+        (NP (PRP you))))
+    (. .)))
+
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+advmod(person-5, only-3)
+nummod(person-5, one-4)
+nsubj(is-2, person-5)
+nsubj(define-8, who-6)
+aux(define-8, can-7)
+acl:relcl(person-5, define-8)
+dobj(define-8, success-9)
+case(life-12, in-10)
+nmod:poss(life-12, your-11)
+nmod:in(define-8, life-12)
+cc(is-2, and-14)
+nsubj(you-17, that-15)
+cop(you-17, 's-16)
+conj:and(is-2, you-17)
+
