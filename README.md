@@ -3,8 +3,8 @@
 A rule-based English tense predictor based on the output of the dependency parser like Stanford CoreNLP.
 
 # Usage
-python3 predict.py sample.in  
-[sample.in](http://nlg.csie.ntu.edu.tw/nlpresource/english_tense_predictor/sample.in) contains a number of sentences which are parsed by a depdendency parser in the Stanford format.
+```python3 predict.py sample.in``` </br>
+```sample.in``` contains a number of sentences which are parsed by a depdendency parser in the Stanford format.
 
 # Download
 Download ```ntu_eng_tense_predictor.zip``` for the toolkit.
